@@ -183,6 +183,7 @@ The key workflows are:
 
    
 6. Edit course
+   
 •	Admin ->Administration System: Enter Course Id
 
 •	Admin ->Administration System: Enter Course Name
@@ -243,7 +244,7 @@ The key workflows are:
    
    • Create a new database for the project.
    
-   • Run SQL scripts to create the database schema.
+   • Run SQL scripts (in resourses file) to create the database schema.
    
    • Update the database connection details in the config.properties file (if applicable).
    
