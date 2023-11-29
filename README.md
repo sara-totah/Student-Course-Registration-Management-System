@@ -28,6 +28,23 @@ The application will generate an up-to-date tables for all students registered i
 ## Database Design
 The system uses a MySQL database with the following structure:
 
+![database_diagram](https://github.com/sara-totah/Student-Course-Registration-Management-System/assets/62484242/a0f82eb2-ff5f-4083-bb5c-1cbb25956aa6)
+
+•	Table 1: Students:
+
+Fields: student_id, name, major, age, email, mobile, city, balance.
+
+
+•	Table 2: Courses:
+
+Fields: course_id, course_name, instructor_name, max_students, course_fee.
+
+
+•	Table 3: Registrations:
+
+Fields: enrollment_id, student_id, course_id.
+
+
 Tables
 1. Students - details like id, name, email etc
 2. Courses - details like id, name, fees etc
