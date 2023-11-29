@@ -14,9 +14,11 @@ This is a Java-based application developed using the NetBeans Integrated Develop
 The application will maintain a comprehensive database of students and courses, the student database will store details such as name, contact number, email, and date of birth, while the course database will store details such as course code, course name, instructor name, max number of allowed students and course fees.
 
 2. Enrollment Management
+   
 The system will enable the institution to add or delete enrollment records, students can be enrolled in multiple courses simultaneously, the system will also generate an invoice for the course fees.
 
 3. Report Generation
+   
 The application will generate an up-to-date tables for all students registered in the system, all courses available and the students enrollment history on the system.
 
 ### Technologies used 
