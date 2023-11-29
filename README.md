@@ -35,20 +35,29 @@ Tables
    
 ## Sequence Diagrams
 The key workflows are:
+
 1. Student registration
 
 ![student_reg_diagram](https://github.com/sara-totah/Student-Course-Registration-Management-System/assets/62484242/4ec06bbe-46b7-4c4c-8db4-970301044dc7)
 
 •	Admin -> Registration System: Enter Student ID
+
 •	Admin -> Registration System: Enter Personal Details
+
 •	Admin -> Registration System: Enter Contact Details
+
 •	Admin -> Registration System: Enter Money Balance
+
 •	Admin -> Registration System: Submit Application
 
+
 •	Registration System -> Database: Store Student Information
+
 •	Database -> Registration System: Confirmation of Successful Storage
 
+
 •	Registration System -> Admin: Confirmation of Successful Registration
+
 
 •	Database -> Registration System: Update the Students Table Display
 
@@ -56,20 +65,146 @@ The key workflows are:
 
 ![newCoureReg](https://github.com/sara-totah/Student-Course-Registration-Management-System/assets/62484242/46d2715b-39d4-41e5-b412-5f2b02bec1d7)
 
+•	Admin -> Administration System: Enter Course Id
+
+•	Admin -> Administration System: Enter Course Name
+
+•	Admin -> Administration System: Enter Course Details
+
+•	Admin -> Administration System: Enter Course Fees
+
+•	Admin -> Administration System: Submit Course Information
+
+
+•	Administration System -> Database: Store Course Information
+
+•	Database -> Administration System: Confirmation of Successful Storage
+
+
+•	Administration System -> Admin: Confirmation of Successful Registration
+
+
 3. Student deletion
 
 ![deleteStudent](https://github.com/sara-totah/Student-Course-Registration-Management-System/assets/62484242/23b49873-2bf5-4287-a396-f8cc1e5e7160)
+
+•	Admin -> Registration System: Enter Student ID
+
+•	Admin -> Registration System: Enter Personal Details
+
+•	Admin -> Registration System: Enter Contact Details
+
+•	Admin -> Registration System: Enter Money Balance
+
+•	Admin -> Registration System: Submit Application
+
+(or click on the student details on the table display)
+
+
+•	Registration System -> Database: Delete Student Information from students_table and from course_enrollment table.
+
+•	Database -> Registration System: Confirmation of Successful Update
+
+
+•	Registration System -> Admin: Confirmation of Successful Update
+
+
+•	Database -> Registration System: Update the Students Table Display
+
 
 4. Course deletion
 
 ![database_diagram](https://github.com/sara-totah/Student-Course-Registration-Management-System/assets/62484242/963e15e1-38c8-447b-addf-11eb47567873)
 
+•	Admin -> Administration System: Enter Course Id
+
+•	Admin -> Administration System: Enter Course Name
+
+•	Admin -> Administration System: Enter Course Details
+
+•	Admin -> Administration System: Enter Course Fees
+
+•	Admin -> Registration System: Submit Application
+
+(or click on the course details on the table display)
+
+
+•	Registration System -> Database: Delete Course Information from courses table, and all enrollment into this course from course_enrollment table.
+
+•	Database -> Registration System: Confirmation of Successful Update
+
+
+•	Registration System -> Admin: Confirmation of Successful Update
+
+•	Database ->Registration System: Update the Courses Table Display
+
+
 5. Edit student
+
+•	Admin ->Registration System: Enter Student ID
+
+•	Admin ->Registration System: Enter Personal Details
+
+•	Admin ->Registration System: Enter Contact Details
+
+•	Admin ->Registration System: Enter Money Balance
+
+•	Admin ->Registration System: Submit Application
+
+(or click on the student details on the table display, and update the entry you want)
+
+
+•	Registration System ->Database: Update Student Information in students_table
+
+•	Database ->Registration System: Confirmation of Successful Update
+
+•	Registration System ->Admin: Confirmation of Successful Update
+
+•	Database ->Registration System: Update the Students Table Display
+
    
 6. Edit course
-   
+•	Admin ->Administration System: Enter Course Id
+
+•	Admin ->Administration System: Enter Course Name
+
+•	Admin ->Administration System: Enter Course Details
+
+•	Admin ->Administration System: Enter Course Fees
+
+•	Admin ->Registration System: Submit Application
+
+(or click on the student details on the table display, and update the entry you want)
+
+
+•	Registration System ->Database: Update Course Information in course_table
+
+•	Database ->Registration System: Confirmation of Successful Update
+
+
+•	Registration System ->Admin: Confirmation of Successful Update
+
+
+•	Database ->Registration System: Update the Course Table Display
+
+
 7. Enroll student in course
-   
+
+•	Admin ->Registration System: Enter Student ID
+
+•	Admin ->Registration System: Enter Course ID
+
+•	Admin ->Registration System: Submit Application
+
+•	Registration System ->Database: Get course fees amount and student balance
+
+•	Database ->Registration System: Confirmation of Successful / Failed Enrollment
+
+•	Registration System ->Admin: Confirmation of Successful / Failed Enrollment
+
+•	Database ->Registration System: Update the Enrollment Table Display
+
+
 ## Getting Started
 ### Prerequisites
 1. Java 8
