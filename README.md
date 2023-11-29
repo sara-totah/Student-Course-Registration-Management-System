@@ -36,13 +36,39 @@ Tables
 ## Sequence Diagrams
 The key workflows are:
 1. Student registration
+
+![student_reg_diagram](https://github.com/sara-totah/Student-Course-Registration-Management-System/assets/62484242/4ec06bbe-46b7-4c4c-8db4-970301044dc7)
+
+•	Admin -> Registration System: Enter Student ID
+•	Admin -> Registration System: Enter Personal Details
+•	Admin -> Registration System: Enter Contact Details
+•	Admin -> Registration System: Enter Money Balance
+•	Admin -> Registration System: Submit Application
+
+•	Registration System -> Database: Store Student Information
+•	Database -> Registration System: Confirmation of Successful Storage
+
+•	Registration System -> Admin: Confirmation of Successful Registration
+
+•	Database -> Registration System: Update the Students Table Display
+
+2. Course registration
+
+![newCoureReg](https://github.com/sara-totah/Student-Course-Registration-Management-System/assets/62484242/46d2715b-39d4-41e5-b412-5f2b02bec1d7)
+
+3. Student deletion
+
+![deleteStudent](https://github.com/sara-totah/Student-Course-Registration-Management-System/assets/62484242/23b49873-2bf5-4287-a396-f8cc1e5e7160)
+
+4. Course deletion
+
+![database_diagram](https://github.com/sara-totah/Student-Course-Registration-Management-System/assets/62484242/963e15e1-38c8-447b-addf-11eb47567873)
+
+5. Edit student
    
-3. Course registration
-4. Student deletion
-5. Course deletion
-6. Edit student
-7. Edit course
-8. Enroll student in course
+6. Edit course
+   
+7. Enroll student in course
    
 ## Getting Started
 ### Prerequisites
