@@ -77,10 +77,27 @@ The key workflows are:
 3. MySQL
 
 ### Installation
-1. Clone the repo
-2. Configure the database connection in NetBeans
-3. Run SQL scripts to create the database schema
-4. Build and run the project in NetBeans
+1. Clone the repo.
+2. Open the project in NetBeans:
+   • Launch NetBeans.
+   
+   • Select "File" > "Open Project" and navigate to the cloned repository.
+  
+3. Configure MySQL Database:
+   
+   • Open the MySQL Workbench or any MySQL client tool.
+   
+   • Create a new database for the project.
+   
+   • Run SQL scripts to create the database schema.
+   
+   • Update the database connection details in the config.properties file (if applicable).
+   
+4. Build and Run the Project:
+   • Build the project in NetBeans.
+   
+   • Run the project.
+
    
 ### Usage
 The system allows admins to:
