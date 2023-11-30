@@ -133,7 +133,6 @@ The key workflows are:
 
 4. Course deletion
 
-![database_diagram](https://github.com/sara-totah/Student-Course-Registration-Management-System/assets/62484242/963e15e1-38c8-447b-addf-11eb47567873)
 
 •	Admin -> Administration System: Enter Course Id
 
