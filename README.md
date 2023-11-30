@@ -161,69 +161,69 @@ The key workflows are:
 
 5. Edit student
 
-•	Admin ->Registration System: Enter Student ID
+•	Admin -> Registration System: Enter Student ID
 
-•	Admin ->Registration System: Enter Personal Details
+•	Admin -> Registration System: Enter Personal Details
 
-•	Admin ->Registration System: Enter Contact Details
+•	Admin -> Registration System: Enter Contact Details
 
-•	Admin ->Registration System: Enter Money Balance
+•	Admin -> Registration System: Enter Money Balance
 
-•	Admin ->Registration System: Submit Application
+•	Admin -> Registration System: Submit Application
 
 (or click on the student details on the table display, and update the entry you want)
 
 
-•	Registration System ->Database: Update Student Information in students_table
+•	Registration System -> Database: Update Student Information in students_table
 
-•	Database ->Registration System: Confirmation of Successful Update
+•	Database -> Registration System: Confirmation of Successful Update
 
-•	Registration System ->Admin: Confirmation of Successful Update
+•	Registration System -> Admin: Confirmation of Successful Update
 
-•	Database ->Registration System: Update the Students Table Display
+•	Database -> Registration System: Update the Students Table Display
 
    
 6. Edit course
    
-•	Admin ->Administration System: Enter Course Id
+•	Admin -> Administration System: Enter Course Id
 
-•	Admin ->Administration System: Enter Course Name
+•	Admin -> Administration System: Enter Course Name
 
-•	Admin ->Administration System: Enter Course Details
+•	Admin -> Administration System: Enter Course Details
 
-•	Admin ->Administration System: Enter Course Fees
+•	Admin -> Administration System: Enter Course Fees
 
-•	Admin ->Registration System: Submit Application
+•	Admin -> Registration System: Submit Application
 
 (or click on the student details on the table display, and update the entry you want)
 
 
-•	Registration System ->Database: Update Course Information in course_table
+•	Registration System -> Database: Update Course Information in course_table
 
-•	Database ->Registration System: Confirmation of Successful Update
-
-
-•	Registration System ->Admin: Confirmation of Successful Update
+•	Database -> Registration System: Confirmation of Successful Update
 
 
-•	Database ->Registration System: Update the Course Table Display
+•	Registration System -> Admin: Confirmation of Successful Update
+
+
+•	Database -> Registration System: Update the Course Table Display
 
 
 7. Enroll student in course
 
-•	Admin ->Registration System: Enter Student ID
+•	Admin -> Registration System: Enter Student ID
 
-•	Admin ->Registration System: Enter Course ID
+•	Admin -> Registration System: Enter Course ID
 
-•	Admin ->Registration System: Submit Application
+•	Admin -> Registration System: Submit Application
 
-•	Registration System ->Database: Get course fees amount and student balance
+•	Registration System -> Database: Get course fees amount and student balance
 
-•	Database ->Registration System: Confirmation of Successful / Failed Enrollment
+•	Database -> Registration System: Confirmation of Successful / Failed Enrollment
 
-•	Registration System ->Admin: Confirmation of Successful / Failed Enrollment
+•	Registration System -> Admin: Confirmation of Successful / Failed Enrollment
 
-•	Database ->Registration System: Update the Enrollment Table Display
+•	Database -> Registration System: Update the Enrollment Table Display
 
 
 ## Getting Started
