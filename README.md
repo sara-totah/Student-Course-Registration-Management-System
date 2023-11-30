@@ -150,12 +150,13 @@ The key workflows are:
 
 •	Registration System -> Database: Delete Course Information from courses table, and all enrollment into this course from course_enrollment table.
 
+
 •	Database -> Registration System: Confirmation of Successful Update
 
 
 •	Registration System -> Admin: Confirmation of Successful Update
 
-•	Database ->Registration System: Update the Courses Table Display
+•	Database -> Registration System: Update the Courses Table Display
 
 
 5. Edit student
