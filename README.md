@@ -228,17 +228,11 @@ The key workflows are:
 ## Getting Started
 ### Prerequisites
 1. Java 8
-2. NetBeans 8.2+
-3. MySQL
+2. MySQL
 
 ### Installation
 1. Clone the repo.
-2. Open the project in NetBeans:
-   • Launch NetBeans.
-   
-   • Select "File" > "Open Project" and navigate to the cloned repository.
-  
-3. Configure MySQL Database:
+2. Configure MySQL Database:
    
    • Open the MySQL Workbench or any MySQL client tool.
    
@@ -246,12 +240,12 @@ The key workflows are:
    
    • Run SQL scripts (in resourses file) to create the database schema.
    
-   • Update the database connection details in the config.properties file (if applicable).
+   • Update the database connection details in the config.properties file.
+
+   • Copy the path of the config.properties file into ReadPropertiesFile.java.
    
 4. Build and Run the Project:
-   • Build the project in NetBeans.
-   
-   • Run the project.
+   • Build the project and Run it.
 
    
 ### Usage
