@@ -4,8 +4,6 @@
  */
 package com.mycompany.studentenrollmentmanager;
 
-
-import com.mycompany.studentenrollmentmanager.Main;
 import static com.mycompany.studentenrollmentmanager.ReadPropertiesFile.Read;
 import static com.mycompany.studentenrollmentmanager.ReadPropertiesFile.getPassword;
 import static com.mycompany.studentenrollmentmanager.ReadPropertiesFile.getUrl;
@@ -16,7 +14,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
-import java.util.Properties;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -289,6 +286,12 @@ public class course_enrollment extends javax.swing.JFrame {
             insert.executeUpdate();
 
             JOptionPane.showMessageDialog(this, "Student Enrolled");
+            balance = balance - fees;
+            insert = con1.prepareStatement("UPDATE students SET balance=? WHERE student_id=?"); 
+            insert.setDouble(1, balance);
+            insert.setString(2, student_id_txt);
+            insert.executeUpdate();
+
             table_update();
         } else {
             JOptionPane.showMessageDialog(this, "Student Balance is not enough to register into this course");
